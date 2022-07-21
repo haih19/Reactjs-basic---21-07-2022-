@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router-dom"
 import Nav from './Nav/Nav';
 import Home from './Example/Home';
 import About from './Example/About';
-
+import ListUser from './Users/ListUser';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/todos" element={<ListTodo />} />
           <Route path="/about" element={<About />} />
+          <Route path="/user" element={<ListUser />} />
         </Routes>
 
 
